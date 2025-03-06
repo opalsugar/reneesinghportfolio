@@ -1,21 +1,6 @@
 # Renee Singh Portfolio
 
 ## Projects
-### Data-Driven EEG Band Discovery with Decision Trees
-[Publication](https://www.mdpi.com/1424-8220/22/8/3048)
-
-Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
-
-![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
-
-### Decoding Physical and Cognitive Impacts of Particulate Matter Concentrations at Ultra-Fine Scales
-[Publication](https://www.mdpi.com/1424-8220/22/11/4240)
-
-Used **Matlab** to train over 100 machine learning models which estimated particulate matter concentrations based on a suite of over 300 biometric variables. We found biometric variables can be used to accurately estimate particulate matter concentrations at ultra-fine spatial scales with high fidelity (r2 = 0.91) and that smaller particles are better estimated than larger ones. Inferring environmental conditions solely from biometric measurements allows us to disentangle key interactions between the environment and the body.
-
-![Bike Study](/assets/img/bike_study.jpeg)
-
-
 
 ## Python
 
@@ -37,6 +22,8 @@ Developed and optimized robust deepfake detection models using Support Vector Cl
 
 Modeled and built a database consisting of 10 tables designed for use by an animal shelter. Utilized logical and relational database modeling, testing functionality by populating database with Mockaroo data and queried at multiple levels of complexity.
 
+[View Report](projects/animalshelter/FurryFriendsReport.pdf){:target="_blank"} 
+
 ### Census Health Metrics MongoDB Database Design and Optimization (In Progress)
 
 Designed and implemented a scalable MongoDB health metrics database, optimizing schema design with nested arrays and indexing strategies to enhance query performance, scalability, and data retrieval efficiency. Leveraged Python to implement ETL processes, extracting relational data, transforming it into a non-relational format, and loading it into MongoDB, streamlining the migration of large-scale census health data and optimizing data integration workflows. Developed and optimized complex aggregation queries to extract insights from large-scale census health data, improving query execution runtimes by 30%.
@@ -47,31 +34,48 @@ Designed and implemented a scalable MongoDB health metrics database, optimizing 
 
 Designed the high-level software architecture for a scalable, event-driven data platform for smart home security devices, leveraging AWS, Azure, and NoSQL databases to define real-time data validation processes and facilitate system communication. Clarified ambiguity in system requirements by defining MVP features, identifying dependencies, and prioritizing features. Developed REST API contracts to ensure seamless data exchange between components, focusing on reliability and low-latency communication. Outlined comprehensive logging, monitoring, and alerting schemas to improve system observability and guide fault-tolerant design.
 
+[View System Design Document](projects/smartlock/SmartLockSystemDesign.pdf){:target="_blank"}
+
 ## R
 
 ### Anime Statistics
 
+[View Report](projects/animestats/AnimeFinalReport.html){:target="_blank"}
+
 ### COVID-19 Health Statistics
 
+[View Shiny App](https://reneesingh.shinyapps.io/201_project/){:target="_blank"}
+
 ### Investment Portfolio Analysis
+
+[View Report](projects/investment/InvestmentFinalReport.pdf){:target="_blank"}
 
 ## React
 
 ### Flow: Productivity Website
 
+[View Website](https://productivity-d4bde.web.app){:target="_blank"}
+
 ### Misinformation Game Directory (In Progress)
 
 Leading development of a research-based misinformation game directory to promote information and media literacy resources to educators and students. Collected metadata on 45 misinformation games, and developed a search and filter system based on target age, number of players, genre, and format.
+
+[View Website](https://opalsugar.github.io/misinfowb/){:target="_blank"}
 
 ## Figma Design
 
 ### MyBookClub
 
-### MyFinancesUW
+Awards: 12th WINFO Hackathon Top 3 'Best Overall' Finalist
+
+[View Prototype](https://www.figma.com/proto/LDN98uWUMUIRdaqkbLvtn6/Winfo-Hackathon?node-id=37-1470&starting-point-node-id=37%3A1470
+){:target="_blank"}
 
 ## Project Management
 
 ### Equity-Driven HRIS
 
 Led development of the product lifecycle of an Equity-Driven HRIS for a hypothetical multi-national retail firm to actively prevent pay disparities. Focused on technical aspects of the proposed HRIS system, writing KPIs, requirements and backlog for data analysis functionality, data integration and centralized architecture.
+
+[View DevOps](https://dev.azure.com/info380ba1/BA1%20Project/_wiki/wikis/BA1-Project.wiki/37/Executive-Summary){:target="_blank"}
 
