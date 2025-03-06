@@ -21,6 +21,9 @@ Used **Matlab** to train over 100 machine learning models which estimated partic
 
 ### Predictive Modeling of Spotify Streams based on Auditory Qualities 
 
+[View Report](projects/spotify/SpotifyReport.pdf){:target="_blank"}
+[View Code](projects/spotify/SpotifyCode.pdf){:target="_blank"}
+
 ### Evaluation of Machine Learning and Deep Learning Algorithms for Deepfake Image Detection
 
 Developed and optimized robust deepfake detection models using Support Vector Classifier and Multi-Layer Perceptron and fine-tuning hyperparameters with GridSearch cross validation to achieve an 82% accuracy rate on test data, demonstrating strong performance in identifying AI-generated content in real-world scenarios. Preprocessed a dataset of 2,000 real and AI-generated facial images, applying grayscale conversion and eigenface principal component analysis to extract key visual features, such as texture irregularities, color distortions, and high-frequency noise that serve as indicators of AI-generated content.
