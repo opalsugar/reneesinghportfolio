@@ -10,7 +10,7 @@
 
 ### Animal Shelter Relational and Physical Database Modeling
 
-### Census Health Metrics MongoDB Database Design and Optimization
+### Census Health Metrics MongoDB Database Design and Optimization (In Progress)
 
 ## Software Architecture
 
@@ -19,3 +19,5 @@
 ## React
 
 ### Flow: Productivity Website
+
+### Misinformation Game Directory (In Progress)
