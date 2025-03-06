@@ -23,7 +23,7 @@ Developed and optimized robust deepfake detection models using <b>Support Vector
 
 #### MobyGames Website Scraping and Collaborative-Filtering Recommendation System
 
-Developed an interactive web application, MobySearch, to enable users to search and explore video game data from MobyGames. Crawled and pre-processed 1026 documents using wget and BeautifulSoup, then indexed the data using python-terrier without stemming or stopword removal. Implementing Hiemstra LM for retrieval resulted in a mean average precision of 21%, R-precision of 10%, and reciprocal rank of 23%. Logged user searches provided weekly trending queries and personalized recommendations, enhancing the user experience with advanced search features and a popularity-based recommendation system.
+Developed an interactive web application, MobySearch, to enable users to search and explore video game data from MobyGames. Crawled and pre-processed 1026 documents using <b>wget and BeautifulSoup</b>, then indexed the data using <b>python-terrier</b> without stemming or stopword removal. Implementing <b>HiemstraLM</b> for retrieval resulted in a mean average precision of 21%, R-precision of 10%, and reciprocal rank of 23%. Logged user searches provided weekly trending queries and personalized recommendations, enhancing the user experience with advanced search features and a popularity-based recommendation system.
 
 Libraries: pandas, numpy, python-terrier, BeautifulSoup
 
@@ -33,19 +33,19 @@ Libraries: pandas, numpy, python-terrier, BeautifulSoup
 
 #### Animal Shelter Relational and Physical Database Modeling
 
-Developed a comprehensive database system for Furry Friends Shelter, a conceptual no-kill shelter for cats and dogs, to streamline the adoption process, enhance health monitoring, and improve overall animal care. Utilized relational database design principles to create a schema with 10 interconnected tables. Implemented critical SQL queries for tracking adoptions, managing health records, and optimizing animal care, resulting in over 200 health logs, 100+ vaccinations, and 150+ medication administrations.
+Developed a comprehensive <b>relational database system</b> for Furry Friends Shelter, a conceptual no-kill shelter for cats and dogs, to streamline the adoption process, enhance health monitoring, and improve overall animal care. Utilized relational database design principles to create a schema with <b>10 entities</b>. Implemented critical SQL queries for tracking adoptions, managing health records, and optimizing animal care, resulting in over <b>200 health logs, 100+ vaccinations, and 150+ medication administrations</b>.
 
 [View Report](projects/animalshelter/FurryFriendsReport.pdf){:target="_blank"} 
 
 #### County Health Metrics MongoDB Database Design and Optimization (In Progress)
 
-Designed and implemented a scalable MongoDB health metrics database, optimizing schema design with nested arrays and indexing strategies to enhance query performance, scalability, and data retrieval efficiency. Leveraged Python to implement ETL processes, extracting relational data, transforming it into a non-relational format, and loading it into MongoDB, streamlining the migration of large-scale census health data and optimizing data integration workflows. Developed and optimized complex aggregation queries to extract insights from large-scale census health data, improving query execution runtimes by 30%.
+Designed and implemented a scalable MongoDB health metrics database, optimizing schema design with nested arrays and indexing strategies to enhance query performance, scalability, and data retrieval efficiency. Leveraged Python to <b>implement ETL processes, extracting relational data, transforming it into a non-relational format </b>, and loading it into MongoDB, <b>streamlining the migration of large-scale census health data and optimizing data integration workflows</b>. Developed and optimized complex aggregation queries to extract insights from large-scale census health data, <b>improving query execution runtimes by 30%</b>.
 
 ### Software Architecture
 
 #### System Design for Smart Lock Data Platform
 
-Designed the high-level software architecture for a scalable, event-driven data platform for smart home security devices, leveraging AWS, Azure, and NoSQL databases to define real-time data validation processes and facilitate system communication. Clarified ambiguity in system requirements by defining MVP features, identifying dependencies, and prioritizing features. Developed REST API contracts to ensure seamless data exchange between components, focusing on reliability and low-latency communication. Outlined comprehensive logging, monitoring, and alerting schemas to improve system observability and guide fault-tolerant design.
+Designed the high-level software architecture for a <b>scalable, event-driven data platform</b> for smart home security devices, leveraging <b>AWS, Azure, and NoSQL databases</b> to define real-time data validation processes and facilitate system communication. Clarified ambiguity in system requirements by defining MVP features, identifying dependencies, and prioritizing features. Developed REST API contracts to ensure seamless data exchange between components, focusing on reliability and low-latency communication. Outlined comprehensive logging, monitoring, and alerting schemas to improve system observability and guide fault-tolerant design.
 
 [View System Design Document](projects/smartlock/SmartLockSystemDesign.pdf){:target="_blank"}
 
@@ -53,7 +53,7 @@ Designed the high-level software architecture for a scalable, event-driven data 
 
 #### Investment Portfolio Analysis
 
-Wrote 10 page analysis of 5 Vanguard ETFs from the Wealthfront Classic Portfolio. Utilized R to calculate returns, sample statistics and Value-at-Risk, created and visualized efficient portfolios for different expected return targets to determine optimal investment.
+Wrote 10 page analysis of 5 Vanguard ETFs from the Wealthfront Classic Portfolio. Utilized <b>R</b> to calculate returns, sample statistics and Value-at-Risk, created and visualized efficient portfolios for different expected return targets to determine optimal investment.
 
 Libraries: tidyverse, zoo, xts, PerformanceAnalytics
 
@@ -63,7 +63,7 @@ Libraries: tidyverse, zoo, xts, PerformanceAnalytics
 
 #### Misinformation Game Directory (In Progress)
 
-Leading development of a research-based misinformation game directory to promote information and media literacy resources to educators and students. Collected metadata on 45 misinformation games, and developed a search and filter system based on target age, number of players, genre, and format.
+Leading development of a research-based misinformation game directory to promote information and media literacy resources to educators and students. Collected metadata on <b>45 misinformation games</b>, and developed a search and filter system based on target age, number of players, genre, and format.
 
 [View Website](https://opalsugar.github.io/misinfowb/){:target="_blank"}
 
