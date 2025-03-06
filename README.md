@@ -1,10 +1,10 @@
 # Skills
 
-Data Processing: Python, SQL, NoSQL, PowerBI, Tableau, R, Web Crawling, Web Scraping
-Front-End: JavaScript, HTML, CSS, React, Firebase, 
-Tools: ETL, MongoDB, Azure, AWS, REST APIs, Git
-Libraries: pandas, numpy, scikit-learn, scipy, matplotlib, pyterrier
-Project Management: Azure DevOps, Agile, Scrum, Kanban
+<b>Data Processing: </b>Python, SQL, NoSQL, PowerBI, Tableau, R, Web Crawling, Web Scraping  
+<b>Front-End: </b>JavaScript, HTML, CSS, React, Firebase  
+<b>Tools: </b>ETL, MongoDB, Azure, AWS, REST APIs, Git  
+<b>Libraries: </b>pandas, numpy, scikit-learn, scipy, matplotlib, pyterrier  
+<b>Project Management: </b>Azure DevOps, Agile, Scrum, Kanban
 
 # Portfolio
 
@@ -14,9 +14,9 @@ Project Management: Azure DevOps, Agile, Scrum, Kanban
 
 #### Evaluation of Machine Learning and Deep Learning Algorithms for Deepfake Image Detection 
 
-Developed and optimized robust deepfake detection models using Support Vector Classifier and Multi-Layer Perceptron and fine-tuning hyperparameters with GridSearch cross validation to achieve an 82% accuracy rate on test data, demonstrating strong performance in identifying AI-generated content in real-world scenarios. Preprocessed a dataset of 2,000 real and AI-generated facial images, applying grayscale conversion and eigenface principal component analysis to extract key visual features, such as texture irregularities, color distortions, and high-frequency noise that serve as indicators of AI-generated content.
+Developed and optimized robust deepfake detection models using <b>Support Vector Classifier</b> and <b>Multi-Layer Perceptron</b> and fine-tuning hyperparameters with <b>GridSearch cross-validation</b> to achieve an 82% accuracy rate on test data, demonstrating strong performance in identifying AI-generated content in real-world scenarios. Preprocessed a dataset of <b>2,000 real and AI-generated facial images</b>, applying grayscale conversion and eigenface principal component analysis to extract key visual features, such as texture irregularities, color distortions, and high-frequency noise that serve as indicators of AI-generated content.
 
-Libraries: pandas, numpy, scikit-learn, matplotlib
+<b>Libraries:</b> pandas, numpy, scikit-learn, matplotlib
 
 [View Report](projects/deepfakes/DeepfakeDetectionFinalReport.pdf){:target="_blank"}  
 [View Code](projects/deepfakes/DeepfakeDetectionCode.html){:target="_blank"}
