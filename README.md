@@ -2,7 +2,7 @@
 
 ## Python
 
-### Predictive Modeling Spotify Streams based on Auditory Qualities 
+### Predictive Modeling of Spotify Streams based on Auditory Qualities 
 
 ### Evaluation of Machine Learning and Deep Learning Algorithms for Deepfake Image Detection
 
