@@ -1,25 +1,43 @@
+# Skills
+
+Data Processing: Python, SQL, NoSQL, PowerBI, Tableau, R, Web Crawling, Web Scraping
+Front-End: JavaScript, HTML, CSS, React, Firebase, 
+Tools: ETL, MongoDB, Azure, AWS, REST APIs, Git
+Libraries: pandas, numpy, scikit-learn, scipy, matplotlib, pyterrier
+Project Management: Azure DevOps, Agile, Scrum, Kanban
+
 # Portfolio
 
 ## Featured Projects
 
 ### Python
 
-#### Evaluation of Machine Learning and Deep Learning Algorithms for Deepfake Image Detection
+#### Evaluation of Machine Learning and Deep Learning Algorithms for Deepfake Image Detection 
 
 Developed and optimized robust deepfake detection models using Support Vector Classifier and Multi-Layer Perceptron and fine-tuning hyperparameters with GridSearch cross validation to achieve an 82% accuracy rate on test data, demonstrating strong performance in identifying AI-generated content in real-world scenarios. Preprocessed a dataset of 2,000 real and AI-generated facial images, applying grayscale conversion and eigenface principal component analysis to extract key visual features, such as texture irregularities, color distortions, and high-frequency noise that serve as indicators of AI-generated content.
 
+Libraries: pandas, numpy, scikit-learn, matplotlib
+
 [View Report](projects/deepfakes/DeepfakeDetectionFinalReport.pdf){:target="_blank"}  
 [View Code](projects/deepfakes/DeepfakeDetectionCode.html){:target="_blank"}
+
+#### MobyGames Website Scraping and Collaborative-Filtering Recommendation System
+
+Developed an interactive web application, MobySearch, to enable users to search and explore video game data from MobyGames. Crawled and pre-processed 1026 documents using wget and BeautifulSoup, then indexed the data using python-terrier without stemming or stopword removal. Implementing Hiemstra LM for retrieval resulted in a mean average precision of 21%, R-precision of 10%, and reciprocal rank of 23%. Logged user searches provided weekly trending queries and personalized recommendations, enhancing the user experience with advanced search features and a popularity-based recommendation system.
+
+Libraries: pandas, numpy, python-terrier, BeautifulSoup
+
+[View Report](projects/gamerecs/MobyGamesReport.pdf)
 
 ### SQL and NoSQL
 
 #### Animal Shelter Relational and Physical Database Modeling
 
-Modeled and built a database consisting of 10 tables designed for use by an animal shelter. Utilized logical and relational database modeling, testing functionality by populating database with Mockaroo data and queried at multiple levels of complexity.
+Developed a comprehensive database system for Furry Friends Shelter, a conceptual no-kill shelter for cats and dogs, to streamline the adoption process, enhance health monitoring, and improve overall animal care. Utilized relational database design principles to create a schema with 10 interconnected tables. Implemented critical SQL queries for tracking adoptions, managing health records, and optimizing animal care, resulting in over 200 health logs, 100+ vaccinations, and 150+ medication administrations.
 
 [View Report](projects/animalshelter/FurryFriendsReport.pdf){:target="_blank"} 
 
-#### Census Health Metrics MongoDB Database Design and Optimization (In Progress)
+#### County Health Metrics MongoDB Database Design and Optimization (In Progress)
 
 Designed and implemented a scalable MongoDB health metrics database, optimizing schema design with nested arrays and indexing strategies to enhance query performance, scalability, and data retrieval efficiency. Leveraged Python to implement ETL processes, extracting relational data, transforming it into a non-relational format, and loading it into MongoDB, streamlining the migration of large-scale census health data and optimizing data integration workflows. Developed and optimized complex aggregation queries to extract insights from large-scale census health data, improving query execution runtimes by 30%.
 
@@ -33,15 +51,21 @@ Designed the high-level software architecture for a scalable, event-driven data 
 
 ### R
 
-#### COVID-19 Health Statistics
-
-[View Shiny App](https://reneesingh.shinyapps.io/201_project/){:target="_blank"}
-
 #### Investment Portfolio Analysis
+
+Wrote 10 page analysis of 5 Vanguard ETFs from the Wealthfront Classic Portfolio. Utilized R to calculate returns, sample statistics and Value-at-Risk, created and visualized efficient portfolios for different expected return targets to determine optimal investment.
+
+Libraries: tidyverse, zoo, xts, PerformanceAnalytics
 
 [View Report](projects/investment/InvestmentFinalReport.pdf){:target="_blank"}
 
+### React
 
+#### Misinformation Game Directory (In Progress)
+
+Leading development of a research-based misinformation game directory to promote information and media literacy resources to educators and students. Collected metadata on 45 misinformation games, and developed a search and filter system based on target age, number of players, genre, and format.
+
+[View Website](https://opalsugar.github.io/misinfowb/){:target="_blank"}
 
 ## Other Projects
 
@@ -53,6 +77,12 @@ Designed the high-level software architecture for a scalable, event-driven data 
 [View Code](projects/spotify/SpotifyCode.pdf){:target="_blank"}
 
 ### R
+
+#### COVID-19 Health Statistics
+
+Libraries: tidyverse, shiny
+
+[View Shiny App](https://reneesingh.shinyapps.io/201_project/){:target="_blank"}
 
 #### Anime Statistics
 
