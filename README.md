@@ -1,4 +1,4 @@
-# reneesinghportfolio
+# Renee Singh Portfolio
 
 ## Python
 
