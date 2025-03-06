@@ -16,6 +16,12 @@
 
 ### System Design for Smart Lock Data Platform
 
+## R
+
+### Anime Statistics
+
+### COVID-19 Health Statistics
+
 ## React
 
 ### Flow: Productivity Website
