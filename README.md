@@ -39,7 +39,7 @@ Developed a comprehensive <b>relational database system</b> for Furry Friends Sh
 
 #### County Health Metrics MongoDB Database Design and Optimization (In Progress)
 
-Designed and implemented a scalable MongoDB health metrics database, optimizing schema design with nested arrays and indexing strategies to enhance query performance, scalability, and data retrieval efficiency. Leveraged Python to <b>implement ETL processes, extracting relational data, transforming it into a non-relational format </b>, and loaded it into <b>MongoDB</b>,streamlining the migration of large-scale census health data and optimizing data integration workflows. Developed and optimized complex aggregation queries to extract insights from large-scale census health data, <b>improving query execution runtimes by 30%</b>.
+Designed and implemented a scalable MongoDB health metrics database, optimizing schema design with nested arrays and indexing strategies to enhance query performance, scalability, and data retrieval efficiency. Leveraged Python to <b>implement ETL processes, extracting relational data, transforming it into a non-relational format </b>, and loaded it into <b>MongoDB</b>,streamlining the migration of<b>~250k rows</b> of country health data and optimizing data integration workflows. Developed and optimized complex aggregation queries to extract insights from large-scale census health data, <b>improving query execution runtimes by 30%</b>.
 
 ### Software Architecture
 
